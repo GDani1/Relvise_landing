@@ -162,9 +162,7 @@ body {
   max-width: 540px;
   margin: 10px auto 0 auto;
 }
-body.noscroll {
-  overflow: hidden;
-}
+
 ._ibg {
   position: relative;
 }
@@ -255,6 +253,9 @@ body.noscroll {
   .hamb {
     display: flex;
   }
+  body.noscroll {
+  overflow: hidden;
+}
   .menu {
     transform: translateX(-500px);
     flex-direction: column;
